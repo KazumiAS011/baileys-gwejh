@@ -1,7 +1,7 @@
 {
   "name": "baileys-gwejh",
   "type": "module",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A WebSockets library for interacting with WhatsApp Web",
   "license": "MIT",
   "author": "RFL-KSPULLX.null",

@@ -1,5 +1,12 @@
 # Changelog baileys-gwejh
 
+## 1.0.7 — 2026-11-08
+- Perbaikan label AI (`biz_bot`, messages-send.js): label nyala secara
+  default di chat private (`s.whatsapp.net`/`lid`), mati di grup, dan
+  mati juga di pesan interaktif (tombol legacy/native-flow, list,
+  carousel, template, poll) — label yang nyala bikin tombol tidak tampil
+  di klien. `bizBot: false` di options mematikan label secara eksplisit.
+
 ## 1.0.6 — 2026-11-08
 - Base upstream naik: 7.0.0-rc12 -> **7.0.0-rc14** (versi WA 1035194821 ->
   1043857760; opsi browser Android eksperimental; perbaikan TC token
