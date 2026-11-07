@@ -1,5 +1,13 @@
 # Changelog baileys-gwejh
 
+## 1.0.8 — 2026-11-08
+- Ralat aturan label AI (`biz_bot`, messages-send.js): node `biz_bot`
+  KEMBALI nyala di semua pesan private, termasuk tombol/list/carousel —
+  tombol/carousel butuh node ini supaya tampil di klien (1.0.7 sempat
+  mematikannya di pesan interaktif, itu keliru). Grup tetap mati.
+  Catatan: di Baileys ini label "AI" yang kelihatan di chat nempel di node
+  yang sama, jadi tidak ada saklar label terpisah dari node-nya.
+
 ## 1.0.7 — 2026-11-08
 - Perbaikan label AI (`biz_bot`, messages-send.js): label nyala secara
   default di chat private (`s.whatsapp.net`/`lid`), mati di grup, dan
